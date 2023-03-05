@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+div{
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+.navBAr {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.item1 {
+  color: black;
+  background-color: #32CD32;
+  border: solid 2px white;
+  width: 80px;
+  text-align: center;
+  margin: 5px;
+}
+.item2 {
+  color: black;
+  background-color: forestgreen;
+  border: solid 2px white;
+  width: 80px;
+  text-align: center;
+  margin: 5px;
+}
+.item3 {
+  color: black;
+  background-color: greenyellow;
+  border: solid 2px white;
+  width: 80px;
+  text-align: center;
+  margin: 5px;
+}
+.texBar1 {
+  border: solid 2px white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin: 15px 10px;
+}
+.reponse1 {
+  color: lightgreen;
+  font-size: 20px;
+}
+.texBar2 {
+  border: solid 2px white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  margin: 15px 10px;
+}
+.reponse2 {
+  color: lightgreen;
+  font-size: 20px;
+}
+.hide {
+  filter: blur(2px);
+  font-size: 25px;
+}
